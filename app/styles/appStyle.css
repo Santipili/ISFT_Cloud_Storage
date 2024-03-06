@@ -1,0 +1,35 @@
+.appContainer { 
+    height: 100%; 
+    margin: auto 20px; 
+    text-align: center; 
+    display: flex;
+    align-items: center; /* Esto centra los componentes horizontalmente */
+    justify-content: center;
+}
+
+/* .containerActive {
+    height: 100%;
+    width: 70%; 
+    margin-left: 50px;
+    margin: auto 20px; 
+    text-align: center; 
+}  */
+
+.containerActive {
+    display: flex;
+    flex-direction: column; /* Esto hace que los componentes se apilen uno encima del otro */
+    align-items: center; /* Esto centra los componentes horizontalmente */
+    justify-content: center;
+} 
+
+.componente {
+    margin: 10px;
+    padding: 20px;
+  }
+
+.containerSigned{
+    height: 100%; 
+    margin: auto 20px; 
+    text-align: left; 
+    display: flex;
+}
